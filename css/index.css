@@ -65,12 +65,21 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
-
+.heading{
+   display: flex;
+    justify-content: space-between
+   flex-d
+}
 .container {
     width: 800px;
     margin: 0 auto;
 }
-
+.bigbox{
+    display: flex;
+    flex-wrap: wrap;
+   margin: 0
+    align-content: flex-start 
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
