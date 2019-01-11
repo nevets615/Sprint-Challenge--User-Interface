@@ -66,19 +66,34 @@ p {
     line-height: 1.4;
 }
 .heading{
-   display: flex;
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+	
+	border: 1px solid red;
     justify-content: space-between
-   flex-d
+    
 }
-.container {
+
+.heading nav {	
+	margin-right: 65px;
+	font-size: 14px;
+	color: gray;
+    text-decoration: none;
+}
+
+
+/* .container {
     width: 800px;
     margin: 0 auto;
-}
-.bigbox{
-    display: flex;
-    flex-wrap: wrap;
-   margin: 0
-    align-content: flex-start 
+} */
+
+
+.firstbox {
+   display: flex;
+   border: 1px soild red;
+   
+
 }
 .top-content {
     display: flex;
