@@ -65,6 +65,7 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+
 .heading{
     display: flex;
     justify-content: center;
@@ -79,6 +80,7 @@ p {
     text-decoration: none;
 
 }
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -89,30 +91,26 @@ p {
     justify-content: center;
     border-top: 1px dotted gray;
     
-    
-   }
+    }
+   
    .firstbox div {
      border-bottom: 1px dotted grey;
      margin: 20px;
-     padding: 20px 0;
+     padding: 20px 0;  
 
+    }
 
-    
-}
-
-
-
-   .secondbox {
+    .secondbox {
     display: flex;
     justify-content: center;
     
-    
-   }
+    }
    .secondbox div {
     border-bottom: 1px dotted grey;
     margin: 20px;
-     padding: 20px 0;
-   }
+    padding: 20px 0;
+   
+    }
 
 button {
     display: flex;
@@ -123,8 +121,6 @@ button {
 
 }
     
-
-
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -155,7 +151,7 @@ button {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box1 {
+.middle-content .boxes .box1  {
     width: 12.5%;
     height: 100px;
     background: teal;
@@ -165,7 +161,7 @@ button {
     align-items: center;
     justify-content: center;
 }
-.middle-content .boxes .box2 {
+ .middle-content .boxes .box2 {
     width: 12.5%;
     height: 100px;
     background: gold;
@@ -235,6 +231,11 @@ button {
     align-items: center;
     justify-content: center;
 }
+
+.about{
+    margin: 20px;
+}
+
 .middle-content .boxes .box9 {
     width: 12.5%;
     height: 100px;
@@ -253,7 +254,7 @@ button {
     color: white;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; 
 }
 .bottom-content {
     display: flex;
@@ -296,6 +297,7 @@ footer nav a {
     
 
 }
+
 .heading nav a{
     font-size: 14px;
 	color: gray;
