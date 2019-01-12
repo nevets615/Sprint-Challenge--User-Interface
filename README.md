@@ -46,7 +46,7 @@ content padding boarder margin
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
-main
+cross
 
 5. Explain why git is valuable to a team of developers.
 
